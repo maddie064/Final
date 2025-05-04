@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>Contact Us - GameWatch Central</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
@@ -13,35 +13,35 @@
 
   <div class="container">
     <section>
-      <form class="contact-form">
-        <legend>Get in Touch</legend>
+      <h2>We’d Love to Hear From You</h2>
+      <p>Have questions, feedback, or want your favorite game featured? Reach out using the form below.</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
 
-        <label for="name">Name</label>
-        <input type="text" id="name" required>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" required>
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="6" required></textarea><br /><br />
 
-        <label for="platform">Preferred Platform</label>
-        <select id="platform">
-          <option>PlayStation</option>
-          <option>Xbox</option>
-          <option>PC</option>
-          <option>Switch</option>
-        </select>
-
-        <label for="message">Message</label>
-        <textarea id="message" rows="5"></textarea>
-
-        <button type="submit">Send Message</button>
+        <input type="submit" value="Submit" />
       </form>
+
+      <h3>Connect With Us</h3>
+      <audio controls>
+        <source src="media/theme-music.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>Enjoy our fan theme while you wait for a response!</p>
     </section>
 
     <aside>
-      <h3>Quick Links</h3>
+      <h3>Navigation</h3>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="schedule.html">Release Schedule</a></li>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="schedule.html">📅 Game Schedule</a></li>
       </ul>
     </aside>
   </div>
