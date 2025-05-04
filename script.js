@@ -1,4 +1,4 @@
 window.onload = function () {
-  const courseName = "Web Development 101";
-  alert("Welcome to " + courseName + "! Enjoy exploring South of Midnight 🌙");
+  const courseName = "GameWatch Central";
+  alert("Welcome to " + courseName + "! Enjoy exploring our gaming suggestions!");
 };
